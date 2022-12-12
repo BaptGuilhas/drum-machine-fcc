@@ -109,6 +109,7 @@ class Board extends React.Component {
                       {this.renderPianoKey(6)}
                       {this.renderPianoKey(7)}
                       {this.renderPianoKey(8)}
+                      
               </div>
               <div id="panel-right">
                 <div id='menu'>
