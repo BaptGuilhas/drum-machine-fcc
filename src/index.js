@@ -49,16 +49,16 @@ function PianoKey(props) {
         <div 
           id={id_name} 
           className="btn btn-xl drum-pad" 
-          onClick={()=> {
-            document.getElementById(keysKB[props.value]).play();
-            document.getElementById("display").textContent = playlist[props.value].title;
-          }}
+          // onClick={()=> {
+          //   document.getElementById(keysKB[props.value]).play();
+          //   document.getElementById("display").textContent = playlist[props.value].title;
+          // }}
         >
-          <audio 
+          {/* <audio 
             id={keysKB[props.value]}
             className='clip'
             src={"audio/" + playlist[props.value].file}
-          />
+          /> */}
           {keysKB[props.value]}
         </div>
     )
@@ -68,10 +68,10 @@ function SliderVolume(props) {
   return (
     <div className="slidecontainer">
       <input type="range" min="0" max="100" 
-        onInput={(e)=> {
-          keysKB.forEach(x=>document.getElementById(x).volume = e.target.value / 100);
-          e.target.style.backgroundSize = e.target.value + '% 100%';
-        }}
+        // onInput={(e)=> {
+        //   keysKB.forEach(x=>document.getElementById(x).volume = e.target.value / 100);
+        //   e.target.style.backgroundSize = e.target.value + '% 100%';
+        // }}
         className="slider"
       />
     </div>
@@ -90,11 +90,11 @@ class Board extends React.Component {
       window.onkeydown = (e)=> {
         let testStr = "".concat(...keysKB);
         let testRegex = new RegExp(e.key, "i");
-        if (testRegex.test(testStr)) {
-          const index = keysKB.indexOf(e.key.toUpperCase());
-          document.getElementById(keysKB[index]).play();
-          document.getElementById("display").textContent = playlist[index].title
-        }
+        // if (testRegex.test(testStr)) {
+        //   const index = keysKB.indexOf(e.key.toUpperCase());
+        //   document.getElementById(keysKB[index]).play();
+        //   document.getElementById("display").textContent = playlist[index].title
+        // }
       }
         return (
           <div id="drum-machine">
