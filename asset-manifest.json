@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/drum-machine-fcc.git/static/css/main.d2f6d9d8.css",
-    "main.js": "/drum-machine-fcc.git/static/js/main.a228f1bc.js",
-    "static/media/glyphicons-halflings-regular.svg": "/drum-machine-fcc.git/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
-    "static/media/glyphicons-halflings-regular.ttf": "/drum-machine-fcc.git/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
-    "static/media/glyphicons-halflings-regular.woff": "/drum-machine-fcc.git/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
-    "static/media/glyphicons-halflings-regular.eot": "/drum-machine-fcc.git/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
-    "static/media/glyphicons-halflings-regular.woff2": "/drum-machine-fcc.git/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
-    "index.html": "/drum-machine-fcc.git/index.html",
-    "main.d2f6d9d8.css.map": "/drum-machine-fcc.git/static/css/main.d2f6d9d8.css.map",
-    "main.a228f1bc.js.map": "/drum-machine-fcc.git/static/js/main.a228f1bc.js.map"
+    "main.css": "/drum-machine-fcc/static/css/main.2315295a.css",
+    "main.js": "/drum-machine-fcc/static/js/main.a228f1bc.js",
+    "static/media/glyphicons-halflings-regular.svg": "/drum-machine-fcc/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/glyphicons-halflings-regular.ttf": "/drum-machine-fcc/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/drum-machine-fcc/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/drum-machine-fcc/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/drum-machine-fcc/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/drum-machine-fcc/index.html",
+    "main.2315295a.css.map": "/drum-machine-fcc/static/css/main.2315295a.css.map",
+    "main.a228f1bc.js.map": "/drum-machine-fcc/static/js/main.a228f1bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f6d9d8.css",
+    "static/css/main.2315295a.css",
     "static/js/main.a228f1bc.js"
   ]
 }
